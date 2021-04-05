@@ -1,0 +1,117 @@
+/*
+font-family: 'Gilda Display', serif;
+font-family: 'Maven Pro', sans-serif;
+*/
+
+body{
+    margin: 0;
+    
+}
+/*Section 1*/
+section:nth-of-type(1) {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    font-family: 'Gilda Display', serif;
+}
+
+section:nth-of-type(1) header {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 85px;
+}
+
+section:nth-of-type(1) a{
+    text-decoration: none;
+    color: #ccc;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+section:nth-of-type(1) div{
+    margin: 20vh auto;
+    text-align: center;
+    width: 14%;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to bottom left,#3dc8d5,#8507e1 );
+}
+section:nth-of-type(1) div:hover{
+    background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
+}
+section:nth-of-type(1) h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+section:nth-of-type(1) nav{
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 40px;
+    font-family: 'Maven Pro', sans-serif
+}
+section:nth-of-type(1) nav a{
+    letter-spacing: 0;
+    font-size: 1.3rem;
+}
+section:nth-of-type(1) nav a:hover{   
+    color:white;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 10px;
+}
+
+/*Section 2*/
+section:nth-of-type(2) {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+    background-position: 34% 20%;
+    background-repeat: no-repeat;
+   /* background-size: cover;*/
+   font-family: 'Gilda Display', serif;
+   
+}
+section:nth-of-type(2) h1 {
+    font-size: 4rem;
+    padding-top: 30vh ;
+    padding-left: 20%;
+    text-align: left;
+}
+section:nth-of-type(2) p{
+    padding-left: 20%;
+    text-align: left;
+    padding-right: 50%;
+    line-height: 25px;
+}
+/*Section 3, 4, 5*/
+section:nth-of-type(3),section:nth-of-type(4),section:nth-of-type(5) {
+    width: 98vw;
+    height: 98vh;
+    font-family: 'Gilda Display', serif;
+   /* padding-top: 10%;*/
+}
+
+section:nth-of-type(3) img, section:nth-of-type(4) img, section:nth-of-type(5) img{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: .5rem;
+}
+section:nth-of-type(3) h2, section:nth-of-type(4) h2, section:nth-of-type(5) h2{
+    padding-left: 20%;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+section:nth-of-type(3) p, section:nth-of-type(4) p, section:nth-of-type(5) p{
+    padding-left: 20%;
+    text-transform: uppercase;
+}
+
+section:nth-of-type(3) > p, section:nth-of-type(4) > p, section:nth-of-type(5) > p{
+    height: 15vh;
+}
